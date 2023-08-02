@@ -1,0 +1,93 @@
+body{
+text-align: center;
+background-color: lightpink;
+
+
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-family:'carter',sans-serif;
+    text-align: center;
+    font-size:6rem;
+}
+h2{
+    font-family:cursive;
+    font-size:4.3rem;
+    text-align: center;
+}
+.h{
+    background-color:lightgreen;
+    color:blue;
+}
+span{
+    color:darkmagenta;
+}
+table , th , td{
+    border:3px solid black;
+    letter-spacing:2px;
+    word-spacing:2px;
+    margin: 2%;
+    overflow: hidden;
+    
+}
+td{
+    width:50vw;
+    padding: 1.5%;
+    margin: 0;
+    font-weight: bolder;
+}
+td:hover:nth-child(1){
+    background-color:lightcyan;
+    color:darkorchid;
+    font-weight: bold;
+}
+td:hover:nth-child(2){
+    background-color:lightcyan;
+    color:darkorchid;
+    font-weight: bold;
+}
+td:hover:nth-child(4){
+    background-color:lightcyan;
+    color:darkorchid;
+    font-weight: bold;
+}
+img{
+    width:70%;
+    border:5px solid black;
+    box-shadow:1px 1px 15px 2px black;
+    border-radius:12%;
+}
+img:hover{
+    scale:1.04;
+    
+}
+footer{
+    background-color:whitesmoke;
+}
+.foot a{
+    background-color:black;
+    color: white;
+    box-shadow: 1px 1px 6px 5px darkmagenta;
+    margin: 0 auto;
+    text-decoration: none;
+    font-size:1.5rem;
+    border:3px solid darkmagenta;
+    border-radius: 12%;
+
+} 
+.foot a:hover{
+    background-color: greenyellow;
+    color:black;
+    transition:1.01s;
+}
+@media (max-width:992px) {
+    img{
+        width:100%;
+    }
+}
+
+
+
